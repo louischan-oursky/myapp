@@ -7,6 +7,7 @@ export default function SideMenu() {
     <nav className={styles.container}>
       <Link to="/">/</Link>
       <Link to="/componentstate">Component State</Link>
+      <Link to="/renderprops">Render Props</Link>
     </nav>
   );
 }
