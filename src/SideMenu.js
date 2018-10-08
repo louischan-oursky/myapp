@@ -10,6 +10,7 @@ export default function SideMenu() {
       <Link to="/renderprops">Render Props</Link>
       <Link to="/staleproblem">Stale Problem</Link>
       <Link to="/context">Context</Link>
+      <Link to="/summary">Summary</Link>
     </nav>
   );
 }

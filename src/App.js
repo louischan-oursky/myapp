@@ -6,6 +6,7 @@ import ComponentStateScreen from "./ComponentStateScreen";
 import RenderPropsScreen from "./RenderPropsScreen";
 import StaleProblemScreen from "./StaleProblemScreen";
 import ContextScreen from "./ContextScreen";
+import SummaryScreen from "./SummaryScreen";
 
 export default class App extends React.PureComponent {
   render() {
@@ -29,6 +30,7 @@ export default class App extends React.PureComponent {
             component={StaleProblemScreen}
           />
           <Route exact={true} path="/context" component={ContextScreen} />
+          <Route exact={true} path="/summary" component={SummaryScreen} />
         </Switch>
       </BrowserRouter>
     );

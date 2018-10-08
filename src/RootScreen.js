@@ -7,7 +7,7 @@ export default function RootScreen() {
       <h1>State Management in React</h1>
       <p>
         We are going to introduce several kinds of state management techniques
-        WITHOUT Redux.
+        <strong> WITHOUT</strong> Redux.
       </p>
     </MainLayout>
   );
