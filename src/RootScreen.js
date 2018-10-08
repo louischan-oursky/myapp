@@ -4,7 +4,11 @@ import MainLayout from "./MainLayout";
 export default function RootScreen() {
   return (
     <MainLayout>
-      <div>RootScreen</div>
+      <h1>State Management in React</h1>
+      <p>
+        We are going to introduce several kinds of state management techniques
+        WITHOUT Redux.
+      </p>
     </MainLayout>
   );
 }
