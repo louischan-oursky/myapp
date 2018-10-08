@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import RootScreen from "./RootScreen";
 import ComponentStateScreen from "./ComponentStateScreen";
 import RenderPropsScreen from "./RenderPropsScreen";
+import StaleProblemScreen from "./StaleProblemScreen";
 
 export default class App extends React.PureComponent {
   render() {
@@ -20,6 +21,11 @@ export default class App extends React.PureComponent {
             exact={true}
             path="/renderprops"
             component={RenderPropsScreen}
+          />
+          <Route
+            exact={true}
+            path="/staleproblem"
+            component={StaleProblemScreen}
           />
         </Switch>
       </BrowserRouter>
